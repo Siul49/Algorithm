@@ -27,9 +27,8 @@ int main() {
     }
 
     // 평균 계산과 반올림
-    double average = static_cast<double>(sum) / (n - 2 * a);
+    double average = (double)(sum) / (n - 2 * a);
     cout << round(average) << endl;
 
-    delete[] arr;
     return 0;
 }
